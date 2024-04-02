@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9c99ec9330979f94aa6e33f0bec7752f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Prefabs/FeedbackDemoBackgroundCube.prefab
+  uploadId: 644145

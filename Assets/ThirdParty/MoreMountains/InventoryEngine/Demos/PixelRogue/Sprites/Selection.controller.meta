@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cf18d60d976b68e4394e0c6ab76499a6
+timeCreated: 1463215409
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Sprites/Selection.controller
+  uploadId: 644145

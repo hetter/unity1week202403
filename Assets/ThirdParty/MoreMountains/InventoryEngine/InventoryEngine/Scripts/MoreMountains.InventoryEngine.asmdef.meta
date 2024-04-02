@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8a258d69670d9a54d943dd0e57ffea8a
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/InventoryEngine/Scripts/MoreMountains.InventoryEngine.asmdef
+  uploadId: 644145

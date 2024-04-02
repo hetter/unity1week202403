@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: da87a3f13fd0da146a280000ce5ec55c
+timeCreated: 1461577793
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Animations/Adventurer_0.controller
+  uploadId: 644145

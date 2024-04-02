@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 847621151d634804f820b7c88b89dacc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMCinemachine/MMGyroParallax/MMGyroParallax.cs
+  uploadId: 644145

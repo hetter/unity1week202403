@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2313508e7b935c54d9877ca20548a1b5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMDebugMenu/Scripts/Events/MMDebugMenuButtonEventListener.cs
+  uploadId: 644145

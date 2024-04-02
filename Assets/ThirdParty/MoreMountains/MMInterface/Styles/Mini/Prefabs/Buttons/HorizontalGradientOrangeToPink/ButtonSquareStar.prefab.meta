@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 44d8298d395d7fa4894529f3791da983
+timeCreated: 1512703137
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/HorizontalGradientOrangeToPink/ButtonSquareStar.prefab
+  uploadId: 644145

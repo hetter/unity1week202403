@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86108278c48c3044c9d742004a9adf8a
+timeCreated: 1463215409
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Sprites/PixelInventorySelectorIdle.anim
+  uploadId: 644145

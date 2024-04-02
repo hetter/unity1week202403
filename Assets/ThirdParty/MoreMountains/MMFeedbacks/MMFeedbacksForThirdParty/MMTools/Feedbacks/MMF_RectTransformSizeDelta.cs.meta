@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 58875ceee40a651498d6e840f42a38bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/Feedbacks/MMF_RectTransformSizeDelta.cs
+  uploadId: 644145

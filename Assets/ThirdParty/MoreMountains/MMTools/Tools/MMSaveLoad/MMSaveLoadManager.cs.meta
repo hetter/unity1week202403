@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: aa3d0794b4f8e4b40b6a3dde5b794c0b
+timeCreated: 1478535356
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSaveLoad/MMSaveLoadManager.cs
+  uploadId: 644145

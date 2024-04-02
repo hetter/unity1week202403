@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a0da906e7f03d3d418edb9b2239102ab
+timeCreated: 1512703878
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/LightGrey/ButtonRound.prefab
+  uploadId: 644145

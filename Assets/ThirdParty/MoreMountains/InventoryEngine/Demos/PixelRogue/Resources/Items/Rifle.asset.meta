@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9cb7ee4b9d5371f4eafac88145088a01
+timeCreated: 1463396279
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Resources/Items/Rifle.asset
+  uploadId: 644145

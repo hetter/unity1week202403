@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a74b1b5d357902346825fdfd125ea399
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSaveLoad/MMSaveLoadTestScene.unity
+  uploadId: 644145

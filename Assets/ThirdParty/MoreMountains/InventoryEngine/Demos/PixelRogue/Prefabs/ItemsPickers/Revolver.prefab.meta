@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 713542e9a64865842abc507d341fbcd7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Prefabs/ItemsPickers/Revolver.prefab
+  uploadId: 644145

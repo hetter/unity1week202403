@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee91928957b9b5b48b0b338bc5fbf32a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Demos/MMGhostCamera/PostProcessing/MMGhostCameraPostProcessingProfile.asset
+  uploadId: 644145

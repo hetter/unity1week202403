@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:UnityProject/Assets/metaverse/Editor/MasterDataConver/ExcelCodeCreater.cs.meta
+guid: aafec98c945f24396a3deab4de994288
+========
+guid: 05ad890252057416ca246b22ba3547ba
+>>>>>>>> origin/develop_beta:UnityProject/Assets/metaverse/Editor/MasterDataConver/ExcelDataReaderSelf.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d4d8e14e51685a04fb93fc4b5e8dd38d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Demos/MMTween/Prefabs/Plotter.prefab
+  uploadId: 644145

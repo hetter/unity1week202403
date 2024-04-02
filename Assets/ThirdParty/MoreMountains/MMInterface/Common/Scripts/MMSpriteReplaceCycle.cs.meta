@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2001da774ddc7f84bb68074bd71a5603
+timeCreated: 1506349353
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Common/Scripts/MMSpriteReplaceCycle.cs
+  uploadId: 644145

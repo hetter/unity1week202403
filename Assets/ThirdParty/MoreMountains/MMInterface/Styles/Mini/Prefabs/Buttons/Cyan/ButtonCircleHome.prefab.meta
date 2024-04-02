@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f95dde2d76a8ad544b00eb0c7373364b
+timeCreated: 1512704229
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Cyan/ButtonCircleHome.prefab
+  uploadId: 644145

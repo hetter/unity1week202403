@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9e1695c82df14c74084770f457067f67
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-ThinItalic
+    SDF.asset
+  uploadId: 644145

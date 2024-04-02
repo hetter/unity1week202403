@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f48823da727eddc4e8e9a3b9e6d4ec70
+timeCreated: 1506085827
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Common/Animations/Buttons/Animations/MMI_ButtonCloser.anim
+  uploadId: 644145

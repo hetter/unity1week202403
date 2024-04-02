@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6426d824ca78984bb7ee0f497de0275
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Prefabs/FeedbackDemoMiniSpheresFX.prefab
+  uploadId: 644145

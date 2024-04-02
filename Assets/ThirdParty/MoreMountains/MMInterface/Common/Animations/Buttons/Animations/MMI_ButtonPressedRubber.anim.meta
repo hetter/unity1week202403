@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 65b46aceffee1f24580c2da0355150d7
+timeCreated: 1506280949
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Common/Animations/Buttons/Animations/MMI_ButtonPressedRubber.anim
+  uploadId: 644145

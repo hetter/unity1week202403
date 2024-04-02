@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7c76ce4b1d71eb34e8cd1efd1861248c
+timeCreated: 1512703940
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Grey/ButtonSquareSoundOn.prefab
+  uploadId: 644145

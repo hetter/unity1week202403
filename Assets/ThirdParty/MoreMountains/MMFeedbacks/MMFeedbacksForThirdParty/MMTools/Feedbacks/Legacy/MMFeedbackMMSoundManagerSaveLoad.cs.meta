@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f153f02105d7509409acd105e4acdac8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/Feedbacks/Legacy/MMFeedbackMMSoundManagerSaveLoad.cs
+  uploadId: 644145

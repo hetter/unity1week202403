@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8e137a1d270098b4995a83a182725a0a
+timeCreated: 1512703138
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/HorizontalGradientOrangeToPink/ButtonCircleSoundOn.prefab
+  uploadId: 644145

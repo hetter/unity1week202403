@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4cd05aacfb949444182ef66d63efdbdf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Camera/MMFeedbacksDemo
+    Filter Camera Profile.asset
+  uploadId: 644145

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8547c1a0cd0ea294ea9f2068a4b0ff93
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Demos/MMDebugMenu/MMDebugMenuSettings.lighting
+  uploadId: 644145

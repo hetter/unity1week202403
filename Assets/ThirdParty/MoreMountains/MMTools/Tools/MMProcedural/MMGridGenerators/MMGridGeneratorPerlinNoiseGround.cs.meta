@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4829c639bd6729945b0664d15e2f740e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMProcedural/MMGridGenerators/MMGridGeneratorPerlinNoiseGround.cs
+  uploadId: 644145

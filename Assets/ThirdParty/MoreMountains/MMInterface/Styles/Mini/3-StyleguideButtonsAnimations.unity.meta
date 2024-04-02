@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea89bc72dea980d4abccc06d3614ecc2
+timeCreated: 1505550858
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/3-StyleguideButtonsAnimations.unity
+  uploadId: 644145

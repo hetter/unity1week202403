@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1b89e406878a092438282239ce29006e
+timeCreated: 1491155844
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMParticles/MMRendererSortingLayer.cs
+  uploadId: 644145

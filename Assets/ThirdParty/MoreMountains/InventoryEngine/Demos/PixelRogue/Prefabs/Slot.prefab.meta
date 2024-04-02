@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 553acb8dc3662f04093dfc2d43de4e35
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Prefabs/Slot.prefab
+  uploadId: 644145

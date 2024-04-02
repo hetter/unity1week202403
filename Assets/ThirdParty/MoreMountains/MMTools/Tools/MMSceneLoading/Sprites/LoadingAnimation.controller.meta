@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b10fa324c4770c94487f925443368d5c
+timeCreated: 1457787477
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/Sprites/LoadingAnimation.controller
+  uploadId: 644145

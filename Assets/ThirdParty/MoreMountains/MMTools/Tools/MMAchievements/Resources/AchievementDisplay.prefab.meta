@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 445360f52aabb4446be71f24e6576a72
+timeCreated: 1480162379
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMAchievements/Resources/AchievementDisplay.prefab
+  uploadId: 644145

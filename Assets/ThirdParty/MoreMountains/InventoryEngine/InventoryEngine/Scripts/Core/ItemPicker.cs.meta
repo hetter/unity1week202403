@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 86fd837a0abc28d4d91c55590bd2c090
+timeCreated: 1500026173
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/InventoryEngine/Scripts/Core/ItemPicker.cs
+  uploadId: 644145

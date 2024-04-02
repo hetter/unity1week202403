@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a29993af8639bd14ea283045cec248dd
+timeCreated: 1512703631
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/VerticalGradientGreenToCyan/ButtonRound.prefab
+  uploadId: 644145

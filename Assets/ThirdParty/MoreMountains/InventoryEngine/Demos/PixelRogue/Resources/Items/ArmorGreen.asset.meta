@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e9c3056cd0243f40bce0e8e2636b8ce
+timeCreated: 1463387723
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Resources/Items/ArmorGreen.asset
+  uploadId: 644145

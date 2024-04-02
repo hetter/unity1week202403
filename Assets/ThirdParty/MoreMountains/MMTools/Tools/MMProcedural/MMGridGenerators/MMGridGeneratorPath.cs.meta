@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6040f34cccf59644a9602da5bc052d06
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMProcedural/MMGridGenerators/MMGridGeneratorPath.cs
+  uploadId: 644145

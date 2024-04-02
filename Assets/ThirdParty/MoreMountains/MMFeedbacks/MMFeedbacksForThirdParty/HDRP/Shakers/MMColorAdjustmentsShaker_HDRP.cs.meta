@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 74e91560821f43e47a56cefccaf584cc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/Shakers/MMColorAdjustmentsShaker_HDRP.cs
+  uploadId: 644145

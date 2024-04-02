@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e991e8338c2853d44b4bc3ad13aee865
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Demos/MMSceneLoading/SceneStartsTester.prefab
+  uploadId: 644145

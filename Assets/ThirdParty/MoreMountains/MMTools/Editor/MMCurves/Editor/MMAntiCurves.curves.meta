@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f9bd36e0fdcb17346bb804d148559eb2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Editor/MMCurves/Editor/MMAntiCurves.curves
+  uploadId: 644145

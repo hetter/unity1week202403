@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f9722bddba2de794aa1baf2d5fa37d5e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacks/Feedbacks/MMF_SpriteRenderer.cs
+  uploadId: 644145

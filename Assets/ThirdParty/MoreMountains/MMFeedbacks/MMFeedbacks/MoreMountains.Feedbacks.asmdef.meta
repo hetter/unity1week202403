@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8087d854c1f812e4b9a74437dfc524e0
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef
+  uploadId: 644145

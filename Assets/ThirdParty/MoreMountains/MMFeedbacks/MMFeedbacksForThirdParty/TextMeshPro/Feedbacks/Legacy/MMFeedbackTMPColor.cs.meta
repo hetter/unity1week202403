@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 95b169d46d63cf046ba0d25f314cae64
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/Feedbacks/Legacy/MMFeedbackTMPColor.cs
+  uploadId: 644145

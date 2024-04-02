@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 53a6867d9e449ca4394561ea3eaaa7eb
+timeCreated: 1511734405
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/5-StyleguideDark.unity
+  uploadId: 644145

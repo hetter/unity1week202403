@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 31b8f52d70379eb439f5a4ca78a1413b
+timeCreated: 1522594522
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMShaders/MMZTestAlways.shader
+  uploadId: 644145

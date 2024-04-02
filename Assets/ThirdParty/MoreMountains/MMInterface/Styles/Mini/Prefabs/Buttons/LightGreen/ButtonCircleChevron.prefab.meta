@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b4455fd8fa1fa794783d01db507787a4
+timeCreated: 1512704322
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/LightGreen/ButtonCircleChevron.prefab
+  uploadId: 644145

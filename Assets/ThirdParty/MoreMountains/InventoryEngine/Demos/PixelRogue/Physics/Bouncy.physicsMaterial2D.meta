@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be9ee1d341afc9948b626f0af1e26c42
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 6200000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Physics/Bouncy.physicsMaterial2D
+  uploadId: 644145

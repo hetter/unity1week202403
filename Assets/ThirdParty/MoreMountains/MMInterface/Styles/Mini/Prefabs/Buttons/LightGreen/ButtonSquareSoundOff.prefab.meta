@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: be605c42deb614f44ac7f6affab9e515
+timeCreated: 1512704321
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/LightGreen/ButtonSquareSoundOff.prefab
+  uploadId: 644145

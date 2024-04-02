@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d9dbf313afb206f458581847ac758375
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Editor/MoreMountains.Tools.Editor.asmdef
+  uploadId: 644145

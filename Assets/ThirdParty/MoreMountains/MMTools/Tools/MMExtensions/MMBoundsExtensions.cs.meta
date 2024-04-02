@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b6df521b0f2978740a4c18dddde873a8
+timeCreated: 1455815409
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMExtensions/MMBoundsExtensions.cs
+  uploadId: 644145

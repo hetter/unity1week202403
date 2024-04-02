@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9dcd224d0763405dbd95007c0832831, type: 3}
+  m_Name: UiPrefrabSO
+  m_EditorClassIdentifier: 
+  TitleViewSo: {fileID: 3318907527875991114, guid: 728055a9ebdb92149b86185118953554, type: 3}
+  HomeViewSo: {fileID: 7186423496348305496, guid: fd2dce07d135ab64eba3949dde13a8f5, type: 3}
+  HeroStatusViewSo: {fileID: 1545020380999091884, guid: 2bfc1fa380c3f3b41a3ce97add1e7c3d, type: 3}
+  GameOverViewSo: {fileID: 5675992925644872533, guid: 65f1b3d411037104fb7b8a990dbcc6b7, type: 3}

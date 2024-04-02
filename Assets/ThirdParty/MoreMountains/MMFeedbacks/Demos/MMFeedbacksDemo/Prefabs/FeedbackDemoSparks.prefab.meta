@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b5aa6eb09d3dc3847a751290d0edcfe9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Prefabs/FeedbackDemoSparks.prefab
+  uploadId: 644145

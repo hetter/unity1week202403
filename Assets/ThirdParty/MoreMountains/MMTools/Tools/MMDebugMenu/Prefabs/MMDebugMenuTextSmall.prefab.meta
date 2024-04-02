@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6689802a48b01104ebd8e101f5cce555
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMDebugMenu/Prefabs/MMDebugMenuTextSmall.prefab
+  uploadId: 644145

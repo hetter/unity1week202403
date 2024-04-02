@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c10229dda7348e140a7c4d9a4ef06dd6
+timeCreated: 1506541071
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Common/Animations/Popup/PopupIdle.anim
+  uploadId: 644145

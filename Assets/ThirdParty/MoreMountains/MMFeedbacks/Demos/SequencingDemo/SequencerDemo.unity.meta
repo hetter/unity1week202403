@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7404a4198038588438ed7afd038bd8c0
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/SequencingDemo/SequencerDemo.unity
+  uploadId: 644145

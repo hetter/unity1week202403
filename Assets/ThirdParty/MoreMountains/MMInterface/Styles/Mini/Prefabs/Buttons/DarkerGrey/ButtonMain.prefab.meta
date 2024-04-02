@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6b1034679a57a1149920253ffdc58797
+timeCreated: 1512704130
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/DarkerGrey/ButtonMain.prefab
+  uploadId: 644145

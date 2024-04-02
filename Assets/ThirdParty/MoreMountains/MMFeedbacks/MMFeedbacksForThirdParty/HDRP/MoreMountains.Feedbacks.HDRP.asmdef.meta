@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2361f148a8b2a6e4d82a47713bab9e09
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef
+  uploadId: 644145

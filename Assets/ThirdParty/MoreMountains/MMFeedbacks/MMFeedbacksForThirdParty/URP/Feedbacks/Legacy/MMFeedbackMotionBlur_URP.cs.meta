@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 60aaa89675f08fe46a3472284d415de4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacksForThirdParty/URP/Feedbacks/Legacy/MMFeedbackMotionBlur_URP.cs
+  uploadId: 644145

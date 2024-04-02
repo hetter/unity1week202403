@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c6de2585731c3ae40a81524a39e8a32a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Demos/MMGizmos/MMGizmoDemo.unity
+  uploadId: 644145

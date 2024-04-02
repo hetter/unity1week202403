@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dc07dc5fb0d1ce74e87555fff81237b2
+timeCreated: 1512704227
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Cyan/ButtonCircleCheck.prefab
+  uploadId: 644145

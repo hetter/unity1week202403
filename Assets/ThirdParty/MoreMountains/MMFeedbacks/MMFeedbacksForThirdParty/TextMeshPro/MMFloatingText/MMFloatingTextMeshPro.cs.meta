@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2192c456bb84f804aa4b04b6c64a7acb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MMFloatingText/MMFloatingTextMeshPro.cs
+  uploadId: 644145

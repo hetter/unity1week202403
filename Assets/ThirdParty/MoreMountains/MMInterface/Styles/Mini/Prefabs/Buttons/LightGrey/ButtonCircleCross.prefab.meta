@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9697f9e44c70bd44fab3275a3ab8b07e
+timeCreated: 1512703878
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/LightGrey/ButtonCircleCross.prefab
+  uploadId: 644145

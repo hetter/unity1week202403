@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e3b87501a6ef0246a7a5e8e2dc5e4f9
+timeCreated: 1463396309
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Prefabs/ItemsPickers/Sword.prefab
+  uploadId: 644145

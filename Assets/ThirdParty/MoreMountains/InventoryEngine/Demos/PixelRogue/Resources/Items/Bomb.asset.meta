@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 73d7843da02c41646b5d0e016d55d908
+timeCreated: 1463414826
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 26617
+  packageName: Corgi Engine - 2D + 2.5D Platformer
+  packageVersion: 8.8
+  assetPath: Assets/CorgiEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Resources/Items/Bomb.asset
+  uploadId: 644145
