@@ -87,6 +87,10 @@ namespace DummyEgg.ProjectGK.Home
             }).AddTo(_view);
 
 
+            HeroModel.Instance.IS_PAUSE.Subscribe(value => {
+                _view.ShowPauseUi(value);
+            }).AddTo(_view);
+
             await UniTask.Yield(PlayerLoopTiming.LastPostLateUpdate);
         }
     }

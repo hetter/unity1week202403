@@ -70,9 +70,23 @@ namespace DummyEgg.ProjectGK.Battle
                     int thisWavePoolInx = UnityEngine.Random.Range(0, FlyObjPrefabs.Length);
                     int doTimes = 0;
                     IDisposable waveShootDisp = null;
-                    waveShootDisp = Observable.Timer(TimeSpan.Zero, TimeSpan.FromSeconds(ShootCdTime)).Take(ShootTimesOneWave)
-                    .Subscribe(x =>
-                    {
+                    //waveShootDisp = Observable.Timer(TimeSpan.Zero, TimeSpan.FromSeconds(ShootCdTime)).Take(ShootTimesOneWave)
+                    //.Subscribe(x =>
+                    //{
+                    //    if (!gameObject.activeSelf)
+                    //    {
+                    //        doTimes = ShootTimesOneWave;
+                    //        waveShootDisp.Dispose();
+                    //    }
+                    //    else
+                    //    {
+                    //        SpawnFlyObjects(thisWavePoolInx);
+                    //        doTimes++;
+                    //    }
+                    //}
+                    //).AddTo(this);
+
+                    waveShootDisp = TimeManager.Instance.RunUpdateAct(() => {
                         if (!gameObject.activeSelf)
                         {
                             doTimes = ShootTimesOneWave;
@@ -83,12 +97,12 @@ namespace DummyEgg.ProjectGK.Battle
                             SpawnFlyObjects(thisWavePoolInx);
                             doTimes++;
                         }
-                    }
-                    ).AddTo(this);
+                    }, this.gameObject, ShootCdTime, 0, ShootTimesOneWave);
 
                     await UniTask.WaitUntil(() => { return doTimes == ShootTimesOneWave; }, PlayerLoopTiming.Update, _thisCts.Token);
                     waveShootDisp.Dispose();
-                    await UniTask.Delay(TimeSpan.FromSeconds(ShootWaveCDTime), false, PlayerLoopTiming.Update, _thisCts.Token);
+                    //await UniTask.Delay(TimeSpan.FromSeconds(ShootWaveCDTime), false, PlayerLoopTiming.Update, _thisCts.Token);
+                    await TimeManager.Instance.Delay(ShootWaveCDTime, _thisCts.Token);
                 }
             }
             catch (OperationCanceledException e)
@@ -109,7 +123,8 @@ namespace DummyEgg.ProjectGK.Battle
                 }
             }).AddTo(this);
 
-            await UniTask.Delay(TimeSpan.FromSeconds(ShootStartTime), false, PlayerLoopTiming.Update, _thisCts.Token);
+            //await UniTask.Delay(TimeSpan.FromSeconds(ShootStartTime), false, PlayerLoopTiming.Update, _thisCts.Token);
+            await TimeManager.Instance.Delay(ShootStartTime, _thisCts.Token);
             _setupOneWaveShoot().Forget();
         }
 

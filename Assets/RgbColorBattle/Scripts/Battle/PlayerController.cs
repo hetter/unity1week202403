@@ -94,7 +94,6 @@ namespace DummyEgg.ProjectGK.Battle
 
         public Subject<GameObject> WhenTriggerExit = new();
 
-
         public enum ACTION_STATE
         {
             ONLAND,
@@ -104,7 +103,6 @@ namespace DummyEgg.ProjectGK.Battle
 
         ACTION_STATE _nowActState = ACTION_STATE.IN_AIR;
         public ACTION_STATE GetActState() { return _nowActState; }
-
         // cinemachine
         private float _cinemachineTargetYaw;
         private float _cinemachineTargetPitch;
@@ -135,12 +133,20 @@ namespace DummyEgg.ProjectGK.Battle
 #endif
         public Animator _animator;
         private CharacterController _controller;
+
         private RgbMainPlayInput _input;
         private GameObject _mainCamera;
 
         private const float _threshold = 0.01f;
 
         private bool _hasAnimator;
+
+
+        public void SetAnimatorSpeed(float v)
+        {
+            if (_animator != null)
+                _animator.speed = v;
+        }
 
         private bool IsCurrentDeviceMouse
         {
@@ -164,7 +170,6 @@ namespace DummyEgg.ProjectGK.Battle
                 return _playerGun;
             }
         }
-
 
         //private void Awake()
         //{
@@ -205,6 +210,8 @@ namespace DummyEgg.ProjectGK.Battle
 
             _presenter = new(this);
             _presenter.Setup();
+
+
         }
 
         private void OnTriggerEnter(Collider other)
@@ -220,6 +227,11 @@ namespace DummyEgg.ProjectGK.Battle
 
         private void Update()
         {
+            if (Model.HeroModel.Instance.IS_PAUSE.Value)
+            {
+                return;
+            }
+
             if (_animator == null)
                 _hasAnimator = TryGetComponent(out _animator);
             else
@@ -297,7 +309,7 @@ namespace DummyEgg.ProjectGK.Battle
                 // creates curved result rather than a linear one giving a more organic speed change
                 // note T in Lerp is clamped, so we don't need to clamp our speed
                 _speed = Mathf.Lerp(currentHorizontalSpeed, targetSpeed * inputMagnitude,
-                    Time.deltaTime * SpeedChangeRate);
+                    TimeManager.Instance.DeltaTime * SpeedChangeRate);
 
                 // round speed to 3 decimal places
                 _speed = Mathf.Round(_speed * 1000f) / 1000f;
@@ -308,7 +320,7 @@ namespace DummyEgg.ProjectGK.Battle
             }
 
            
-            _animationBlend = Mathf.Lerp(_animationBlend, targetSpeed, Time.deltaTime * SpeedChangeRate);
+            _animationBlend = Mathf.Lerp(_animationBlend, targetSpeed, TimeManager.Instance.DeltaTime * SpeedChangeRate);
             float setAnimationBlend = _animationBlend;
             if (_animationBlend < 0.01f) _animationBlend = 0f;
             else if (_animationBlend >= 5f) setAnimationBlend = 5f;
@@ -334,8 +346,8 @@ namespace DummyEgg.ProjectGK.Battle
             Vector3 targetDirection = Quaternion.Euler(0.0f, _targetRotation, 0.0f) * Vector3.forward;
 
             // move the player
-            _lastMoveFlag = _controller.Move(targetDirection.normalized * (_speed * Time.deltaTime) +
-                             new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+            _lastMoveFlag = _controller.Move(targetDirection.normalized * (_speed * TimeManager.Instance.DeltaTime) +
+                             new Vector3(0.0f, _verticalVelocity, 0.0f) * TimeManager.Instance.DeltaTime);
 
             // update animator if using character
             if (_hasAnimator)
@@ -438,7 +450,7 @@ namespace DummyEgg.ProjectGK.Battle
                 // jump timeout
                 if (_jumpTimeoutDelta >= 0.0f)
                 {
-                    _jumpTimeoutDelta -= Time.deltaTime;
+                    _jumpTimeoutDelta -= TimeManager.Instance.DeltaTime;
                 }
             }
             else
@@ -449,7 +461,7 @@ namespace DummyEgg.ProjectGK.Battle
                 // fall timeout
                 if (_fallTimeoutDelta >= 0.0f)
                 {
-                    _fallTimeoutDelta -= Time.deltaTime;
+                    _fallTimeoutDelta -= TimeManager.Instance.DeltaTime;
                 }
                 else
                 {
@@ -472,13 +484,13 @@ namespace DummyEgg.ProjectGK.Battle
                         if (_lastMoveFlag == CollisionFlags.Above)
                         {
                             if(_verticalVelocity > 0)
-                                _verticalVelocity = Gravity * Time.deltaTime;
-                            _verticalVelocity += Gravity * Time.deltaTime;
+                                _verticalVelocity = Gravity * TimeManager.Instance.DeltaTime;
+                            _verticalVelocity += Gravity * TimeManager.Instance.DeltaTime;
                         }
                         // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
                         else if (_verticalVelocity < _terminalVelocity )
                         {
-                            _verticalVelocity += Gravity * Time.deltaTime;
+                            _verticalVelocity += Gravity * TimeManager.Instance.DeltaTime;
 
                             if (_verticalVelocity < 0 && _input.Jump && !Grounded)
                             {

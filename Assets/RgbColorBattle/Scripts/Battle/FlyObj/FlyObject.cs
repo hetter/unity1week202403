@@ -24,7 +24,7 @@ namespace DummyEgg.ProjectGK.Battle
 		{
 			base.Update();
 
-			var dtime = Time.deltaTime;
+			var dtime = TimeManager.Instance.DeltaTime; //Time.deltaTime;
 			_movement = Direction * (Speed / 10) * dtime;
 			transform.Translate(_movement, Space.World);
 			// We apply the acceleration to increase the speed

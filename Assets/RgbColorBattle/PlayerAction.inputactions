@@ -58,6 +58,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "0c7dcf82-adbb-4489-beb5-d1e992bc1641",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -142,7 +151,7 @@
                     "name": "",
                     "id": "eeafdb55-59b7-4ef4-ab2a-f1ef2f8665d2",
                     "path": "<Gamepad>/buttonWest",
-                    "interactions": "",
+                    "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "",
                     "action": "Fire",
@@ -163,8 +172,8 @@
                 {
                     "name": "",
                     "id": "da8f9553-f323-44e1-9bcf-a2ac89a2fa1c",
-                    "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
@@ -201,6 +210,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "ChangeBlue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8a057b5-10fb-43a8-ada8-5f23dd8200d4",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41e03fcf-1319-4621-8474-33eb1ac9fb17",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

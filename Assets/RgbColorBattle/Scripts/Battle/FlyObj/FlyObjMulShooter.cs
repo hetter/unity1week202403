@@ -43,7 +43,7 @@ namespace DummyEgg.ProjectGK.Battle
                                 createFunc: () =>
                                 {
                                     var flyobj = GameObject.Instantiate(fb, this.transform);         // プールが空のときに新しいインスタンスを生成する処理
-                                return flyobj;
+                                    return flyobj;
                                 },
                                 actionOnGet: target => target.gameObject.SetActive(true),                            // プールから取り出されたときの処理 
                                 actionOnRelease: target => target.gameObject.SetActive(false),                       // プールに戻したときの処理
@@ -67,26 +67,41 @@ namespace DummyEgg.ProjectGK.Battle
                     _ShootWaveCDTime = UnityEngine.Random.Range(WaveCDTimeRandomMin, WaveCDTimeRandomMax);
                     int doTimes = 0;
                     IDisposable waveShootDisp = null;
-                    waveShootDisp = Observable.Timer(TimeSpan.Zero, TimeSpan.FromSeconds(ShootCdTime)).Take(ShootTimesOneWave)
-                        .Subscribe(x =>
+                    //waveShootDisp = Observable.Timer(TimeSpan.Zero, TimeSpan.FromSeconds(ShootCdTime)).Take(ShootTimesOneWave)
+                    //    .Subscribe(x =>
+                    //    {
+                    //        if (!gameObject.activeSelf)
+                    //        {
+                    //            doTimes = ShootTimesOneWave;
+                    //            waveShootDisp.Dispose();
+                    //        }
+                    //        else
+                    //        {
+                    //            var inx = UnityEngine.Random.Range(0, _ItemPools.Count);
+                    //            SpawnFlyObjects(inx);
+                    //            doTimes++;
+                    //        }
+                    //    }
+                    //    ).AddTo(this);
+
+                    waveShootDisp = TimeManager.Instance.RunUpdateAct(() => {
+                        if (!gameObject.activeSelf)
                         {
-                            if (!gameObject.activeSelf)
-                            {
-                                doTimes = ShootTimesOneWave;
-                                waveShootDisp.Dispose();
-                            }
-                            else
-                            {
-                                var inx = UnityEngine.Random.Range(0, _ItemPools.Count);
-                                SpawnFlyObjects(inx);
-                                doTimes++;
-                            }
+                            doTimes = ShootTimesOneWave;
+                            waveShootDisp.Dispose();
                         }
-                        ).AddTo(this);
+                        else
+                        {
+                            var inx = UnityEngine.Random.Range(0, _ItemPools.Count);
+                            SpawnFlyObjects(inx);
+                            doTimes++;
+                        }
+                    }, this.gameObject, ShootCdTime, 0, ShootTimesOneWave);
 
                     await UniTask.WaitUntil(() => { return doTimes == ShootTimesOneWave; }, PlayerLoopTiming.Update, _thisCts.Token);
                     waveShootDisp.Dispose();
-                    await UniTask.Delay(TimeSpan.FromSeconds(_ShootWaveCDTime), false, PlayerLoopTiming.Update, _thisCts.Token);
+                    //await UniTask.Delay(TimeSpan.FromSeconds(_ShootWaveCDTime), false, PlayerLoopTiming.Update, _thisCts.Token);
+                    await TimeManager.Instance.Delay(_ShootWaveCDTime, _thisCts.Token);
                 }
             }
             catch (OperationCanceledException e)
@@ -107,7 +122,8 @@ namespace DummyEgg.ProjectGK.Battle
                 }
             }).AddTo(this);
 
-            await UniTask.Delay(TimeSpan.FromSeconds(ShootStartTime));
+            //await UniTask.Delay(TimeSpan.FromSeconds(ShootStartTime));
+            await TimeManager.Instance.Delay(ShootStartTime);
             _setupOneWaveShoot().Forget();
         }
 

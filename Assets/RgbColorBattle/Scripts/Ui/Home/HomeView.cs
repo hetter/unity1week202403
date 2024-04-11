@@ -26,6 +26,8 @@ namespace DummyEgg.ProjectGK.Home
 
         [SerializeField] GameObject ImgElementSel;
 
+        [SerializeField] GameObject UiPause;
+
         private int _nowSelect = 0;
 
         //[SerializeField] public BaseProgressBar ExpBar;
@@ -54,6 +56,11 @@ namespace DummyEgg.ProjectGK.Home
 
             _nowSelect = inx;
             ImgElementSel.transform.position = ElementBars[_nowSelect].transform.position;
+        }
+
+        public void ShowPauseUi(bool isPause)
+        {
+            UiPause.SetActive(isPause);
         }
     }
 }

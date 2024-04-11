@@ -8,17 +8,6 @@ namespace DummyEgg.ProjectGK.Battle
 {
     public class RgbMainPlayInput : MonoBehaviour
     {
-        //// Start is called before the first frame update
-        //void Start()
-        //{
-
-        //}
-
-        //// Update is called once per frame
-        //void Update()
-        //{
-
-        //}
         [Header("Character Input Values")]
         public Vector2 Move;
 
@@ -48,29 +37,39 @@ namespace DummyEgg.ProjectGK.Battle
             Fire.Value = value.isPressed;
         }
 
+        public void OnPause(InputValue value)
+        {
+
+            Model.HeroModel.Instance.IS_PAUSE.Value = !Model.HeroModel.Instance.IS_PAUSE.Value;
+            //Debug.Log("debug OnPauseOnPauseOnPauseOnPauseOnPause!!!!!!" + IsPause.Value);
+        }
+
         public void OnChangeRed(InputValue value)
         {
             //Debug.Log("debug attackkkkkkkkkkkkkkk!!!!!!");
 
             // ElementId.Value = 1;
-            //todo model•ª—£
-            Model.HeroModel.Instance.NOW_ELETYPE.Value = Model.HeroModel.ELE_TYPE.RED;
+            //todo modelåˆ†é›¢
+            if(!Model.HeroModel.Instance.IS_PAUSE.Value)
+                Model.HeroModel.Instance.NOW_ELETYPE.Value = Model.HeroModel.ELE_TYPE.RED;
         }
 
         public void OnChangeGreen(InputValue value)
         {
             //Debug.Log("debug attackkkkkkkkkkkkkkk!!!!!!");
             // ElementId.Value = 2;
-            //todo model•ª—£
-            Model.HeroModel.Instance.NOW_ELETYPE.Value = Model.HeroModel.ELE_TYPE.GREEN;
+            //todo modelåˆ†é›¢
+            if (!Model.HeroModel.Instance.IS_PAUSE.Value)
+                Model.HeroModel.Instance.NOW_ELETYPE.Value = Model.HeroModel.ELE_TYPE.GREEN;
         }
 
         public void OnChangeBlue(InputValue value)
         {
             //Debug.Log("debug attackkkkkkkkkkkkkkk!!!!!!");
             // ElementId.Value = 3;
-            //todo model•ª—£
-            Model.HeroModel.Instance.NOW_ELETYPE.Value = Model.HeroModel.ELE_TYPE.BLUE;
+            //todo modelåˆ†é›¢
+            if (!Model.HeroModel.Instance.IS_PAUSE.Value)
+                Model.HeroModel.Instance.NOW_ELETYPE.Value = Model.HeroModel.ELE_TYPE.BLUE;
         }
     }
 }

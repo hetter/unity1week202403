@@ -18,7 +18,7 @@ namespace DummyEgg.ProjectGK.Battle
         [SerializeField] GameObject _model;
         [SerializeField] FlyObjShooter _shooter;
 
-        //todo �}�X�^�[�f�[�^�A�g
+        //todo マスターデータ連携
         [SerializeField] public int HP = 50;
         [SerializeField] public int SCORE = 50;
         public bool IsShoot;
@@ -64,8 +64,11 @@ namespace DummyEgg.ProjectGK.Battle
             _destoryEffectObj.gameObject.SetActive(true);
             if (_shooter != null)
                 _shooter.gameObject.SetActive(false);
+
+            //削除エフェクトはTimeManagerに管理されなくでもok
             await UniTask.Delay(600);
-           
+            //await TimeManager.Instance.Delay(0.6f);
+
 
             _destoryEffectObj.gameObject.SetActive(false);
             _hurtEffectObj.gameObject.SetActive(false);

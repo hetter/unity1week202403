@@ -56,26 +56,8 @@ namespace DummyEgg.ProjectGK.Battle
                 if (value && !_isWaitShootCd)
                 {
                     _FireShootEvent().Forget();
-                    //SpawnBullets();
                 }
             }).AddTo(this);
-
-            //Debug.Log("Time : " + Time.time + ", Main ThreadID:" + Thread.CurrentThread.ManagedThreadId);
-
-            //IDisposable disp = null;
-            //int iindx = 0;
-            //// 10秒ごとに実行（Timerかつ第一引数に 0 指定の場合、Subscribe後に即座に1回目の処理が実行される）
-            //disp = Observable.Timer(TimeSpan.Zero, TimeSpan.FromSeconds(1))
-            //    .Subscribe(x =>
-            //    {
-            //        Debug.Log("Timer Time : " + Time.time + ", No : " + x.ToString() +
-            //            ", ThreadID : " + Thread.CurrentThread.ManagedThreadId);
-
-            //        if (iindx++ == 3)
-            //            disp.Dispose();
-            //    }
-            //    ).AddTo(this);
-
         }
 
         private async UniTask _FireShootEvent()
@@ -83,7 +65,8 @@ namespace DummyEgg.ProjectGK.Battle
             OnShootIntend.OnNext(Unit.Default);
             _isWaitShootCd = true;
             //Debug.Log("wait start.......");
-            await UniTask.Delay(_delayBetweenUsesCounter);
+            //await UniTask.Delay(_delayBetweenUsesCounter);
+            await TimeManager.Instance.Delay(_delayBetweenUsesCounter / 1000.0f);
             _isWaitShootCd = false;
             //Debug.Log("wait end.......");
         }
@@ -102,13 +85,10 @@ namespace DummyEgg.ProjectGK.Battle
             nextBullet.LifeTime = 2.0f;
             nextBullet.Direction = _getGunDirection();
 
-            nextBullet.OnPoolObjDestory = ()=>{ 
-                //Debug.Log($"{nextBullet.name} is return to pool!");
+            nextBullet.OnPoolObjDestory = ()=>{
+                //// プールに戻す
                 nowPool.Release(nextBullet);
             };
-
-            //// プールに戻す
-            //_bulletPool.Release(nextGameObject);
 
             // mandatory checks
             if (nextBullet == null)

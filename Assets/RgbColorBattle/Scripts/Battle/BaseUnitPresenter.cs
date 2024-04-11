@@ -35,17 +35,28 @@ namespace DummyEgg.ProjectGK.Battle
                 _unitObj.GetShield().ChangeShield(value);
             }).AddTo(_unitObj));
 
-            _disps.Add(Observable.Timer(TimeSpan.Zero, TimeSpan.FromSeconds(_unitObj.GetShield().ChangeTime))
-                .Subscribe(x =>
-                {
-                    if (_model.Hp.Value <= 0)
-                        return;
-                    var setval = (int)_model.Now_ShieldType.Value;
-                    ++setval;
-                    if (setval >= (int)Model.HeroModel.ELE_TYPE.TOTAL)
-                        setval = 0;
-                    _model.Now_ShieldType.Value = (Model.HeroModel.ELE_TYPE)setval;
-                }).AddTo(_unitObj));
+            //_disps.Add(Observable.Timer(TimeSpan.Zero, TimeSpan.FromSeconds(_unitObj.GetShield().ChangeTime))
+            //    .Subscribe(x =>
+            //    {
+            //        if (_model.Hp.Value <= 0)
+            //            return;
+            //        var setval = (int)_model.Now_ShieldType.Value;
+            //        ++setval;
+            //        if (setval >= (int)Model.HeroModel.ELE_TYPE.TOTAL)
+            //            setval = 0;
+            //        _model.Now_ShieldType.Value = (Model.HeroModel.ELE_TYPE)setval;
+            //    }).AddTo(_unitObj));
+
+
+            _disps.Add(TimeManager.Instance.RunUpdateAct(() => {
+                if (_model.Hp.Value <= 0)
+                    return;
+                var setval = (int)_model.Now_ShieldType.Value;
+                ++setval;
+                if (setval >= (int)Model.HeroModel.ELE_TYPE.TOTAL)
+                    setval = 0;
+                _model.Now_ShieldType.Value = (Model.HeroModel.ELE_TYPE)setval;
+            }, _unitObj.gameObject, _unitObj.GetShield().ChangeTime));
 
             _disps.Add(_model.Hp.Subscribe(value => {
                 if (_model.Hp.Value <= 0)

@@ -77,21 +77,41 @@ namespace DummyEgg.ProjectGK.Battle
                     _controller.DoOnHitAction().Forget();
             }).AddTo(_controller);
 
-            _controller.UpdateAsObservable().Subscribe((_) => {
+            TimeManager.Instance.UpdateAsObservable.Subscribe((_) => {
                 switch (_controller.GetActState())
                 {
                     case PlayerController.ACTION_STATE.ONLAND:
-                        if (HeroModel.Instance.RecvMpOnLand(Time.deltaTime))
+                        if (HeroModel.Instance.RecvMpOnLand(TimeManager.Instance.DeltaTime))
                             _controller.LockMpAction(false);
                         break;
                     case PlayerController.ACTION_STATE.FLYING:
                         {
-                            if (!HeroModel.Instance.WasteMpFlying(Time.deltaTime))
+                            if (!HeroModel.Instance.WasteMpFlying(TimeManager.Instance.DeltaTime))
                                 _controller.DoStopFlyAction();
                         }
                         break;
                     default:
                         break;
+                }
+            }).AddTo(_controller);
+
+            bool isInit = true;
+            HeroModel.Instance.IS_PAUSE.Subscribe(value => {
+                if (value)
+                {
+                    TimeManager.Instance.TimeScale = 0;
+                    _controller.SetAnimatorSpeed(0);
+                    MoreMountains.Tools.MMSoundManager.Instance.SetVolumeMusic(0);
+                }
+                else
+                {
+                    if (!isInit)
+                    {
+                        TimeManager.Instance.TimeScale = 1;
+                        _controller.SetAnimatorSpeed(1);
+                        MoreMountains.Tools.MMSoundManager.Instance.SetVolumeMusic(1);
+                    }
+                    isInit = false;
                 }
             }).AddTo(_controller);
 
@@ -134,19 +154,6 @@ namespace DummyEgg.ProjectGK.Battle
                         break;
                 }
             });
-            // const float dltTime = 0.02f;
-            //Observable.Timer(TimeSpan.Zero, TimeSpan.FromSeconds(dltTime))
-            //     .Subscribe(x =>
-            //     {
-            //         if(_controller.Grounded)
-            //             HeroModel.Instance.RecvMp(dltTime);
-            //     }
-            //     ).AddTo(_controller);
-
-
-            //// OnDestoryを受けてログに出す
-            //_controller.OnDestroyAsObservable()
-            //    .Subscribe(_ => Debug.Log("Destroy!")).AddTo(_controller);
         }
 
     }

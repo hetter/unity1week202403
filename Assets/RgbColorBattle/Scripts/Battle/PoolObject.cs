@@ -41,11 +41,10 @@ namespace DummyEgg.ProjectGK.Battle
 
 			if (LifeTime >= 0)
 			{
-				_dispLifeDead = Observable.Timer(System.TimeSpan.FromSeconds(LifeTime)).Subscribe(_ =>
-				{
-					//Debug.Log("Timer OnNext : ");
+				_dispLifeDead = TimeManager.Instance.RunFixedUpdateAct(() => {
+					//Debug.Log("-----------------DestoryPoolObj:" + this.name + ",id:" + this.gameObject.GetInstanceID());
 					DestoryPoolObj();
-				}).AddTo(this);
+				}, this.gameObject, -1, LifeTime);
 			}
 		}
 	}

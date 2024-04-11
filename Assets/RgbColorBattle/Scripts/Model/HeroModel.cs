@@ -55,8 +55,11 @@ namespace DummyEgg.ProjectGK.Model
         }
 
         public ReactiveProperty<ELE_TYPE> NOW_ELETYPE = new();
+
+        //to do stage model
         public ReactiveProperty<int> NOW_SCORE = new();
         public ReactiveProperty<bool> IS_GAME_OVER = new();
+        public ReactiveProperty<bool> IS_PAUSE = new();
 
         public Subject<int> HpChangeSubject = new();
 
